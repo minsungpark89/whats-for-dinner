@@ -18,18 +18,29 @@ button {
   float: right;
 }
 
-.container {
+.box {
   border: 5px;
   background-color: white;
-  width: 250px;
-  height: 200px;
+  width: 350px;
+  height: 300px;
   opacity: 0.8;
-  padding: 30px 20;
+  margin: 50px 100px;
   justify-content: center;
 }
 
-.container > button {
+
+.left-container > button {
   float: left;
+  
+}
+
+.right-container {
+  float: right;
+  border: 5px;
+  background-color: white;
+  width: 350px;
+  height: 300px;
+
 }
 
 body {
