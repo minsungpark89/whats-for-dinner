@@ -10,7 +10,10 @@ var randomEntireMeal = document.querySelector();
 // the user sees a random dish from the list of possible dishes for that category
 
 // ADD EVENT LISTENER
-
+randomSideDish.addEventListener('click', createSide);
+randomMainDish.addEventListener('click', createMain);
+randomDessertDish.addEventListener('click', createDessert);
+randomEntireMeal.addEventListener('click', createEntire);
 
 //ADD FUNCTION
 
