@@ -1,4 +1,4 @@
-var side = [
+var sideDish = [
   "Vegetables",
   "French Fries",
   "Salad",
