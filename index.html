@@ -7,21 +7,29 @@
   <body>
     <header>
       <h1>What's for Dinner?
-      <button class="add-a-recipe-button">ADD A RECIPE</button>
+        <button type="submit">ADD A RECIPE</button>
       </h1>
-    </header>
-      <section class="containers"
-      <h1>What are you looking for?</h1>
-      <div class="box"
-        <div class="holder">
-          <input type="checkbox">Side</input>
-          <input type="checkbox">Main dish</input>
-          <input type="checkbox">Dessert</input>
-          <input type="checkbox">Entire Meal</input>
-          <button class="lets-cook-button">LET'S COOK</button>
-       </div>
-     </div>
-      </section>     
+    </header>   
+    < class="flex-container">
+      <section class="left-box">
+        <h1 class="prompt">What are you looking for?<span style="color:red">*</span>
+        </h1>
+        <ul class="radio">
+          <input type="radio" name="radio1" id="side-dish"> Side</input><br>
+          <input type="radio" name="radio2" id="main-dish"> Main Dish</input><br>
+          <input type="radio" name="radio3" id="dessert-dish"> Dessert</input><br>
+          <input type="radio" name="radio4" id="meal"> Full Meal</input><br>
+          <button class="cook-button">LET'S COOK!</button>
+        </ul>
+      </section>
+      <section class="right-box">
+        <section class="right-box-content">
+          <img class="pot" src= "./assets/cookpot.svg">
+          <div class="hidden">
+            <h1 class="prompt-title">You should make:</h1>
+          </div>
+        </section>
+      </section>
   </body>
   <script type="text/javascript" src="main.js"></script>
   <script src="data.js"></script>
