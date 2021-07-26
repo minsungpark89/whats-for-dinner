@@ -11,7 +11,7 @@ ________________________________________________________________________________
 ___________________________________________________________________________________________________________________________
 ## Setup
 
-- Fork this project to your own Github account
+- Fork this web app to your own Github account
 - Clone the repository to your local machine
 - `cd` into the file
 - View web app by running `index.html` with in your terminal.
