@@ -1,13 +1,12 @@
-var sideDish = [
+var sides = [
   "Vegetables",
   "French Fries",
   "Salad",
   "Spring Rolls",
   "Cup of Soup",
-
 ];
 
-var mainDish = [
+var mains = [
   "Pad Thai",
   "Turf and Turf",
   "Pho",
@@ -15,11 +14,11 @@ var mainDish = [
   "Pizza",
 ];
 
-var dessert = [
+var desserts = [
   "Mango Lassi",
   "Mochi",
   "Boba",
   "Strawberry Cheese Cake",
   "Beer",
 ];
-var entireMeal = [];
+

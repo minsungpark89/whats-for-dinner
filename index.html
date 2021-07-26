@@ -7,21 +7,30 @@
   <body>
     <header>
       <h1>What's for Dinner?
-      <button class="add-a-recipe-button">ADD A RECIPE</button>
+        <button class="add-button">ADD A RECIPE</button>
       </h1>
-    </header>
-    <!-- add background color button -->
-      <section class="containers"
-      <h1>What are you looking for?</h1>
-      <div class="box"
-      <div class="holder"
-          <input type="checkbox">Side</input>
-          <input type="checkbox">Main dish</input>
-          <input type="checkbox">Dessert</input>
-          <input type="checkbox">Entire Meal</input>
-          <button class="lets-cook-button">LET'S COOK</button>
-      </div>
-      </section>     
+    </header>   
+    <section class="container">
+      <section class="left-box">
+        <h1 class="prompt1">What are you looking for?<span style="color:red">*</span>
+        </h1>
+        <ul class="dish-radio">
+          <input type="radio" name="meal-radio" id="side-dish">Side</input><br><br>
+          <input type="radio" name="meal-radio" id="main-dish">Main Dish</input><br><br>
+          <input type="radio" name="meal-radio" id="dessert-dish">Dessert</input><br><br>
+          <button type="button" class="cook-button">LET'S COOK!</button>
+        </ul>
+      </section>
+      <section class="right-box">
+          <section class="right-box-content">
+            <img class="pot" src="./assets/cookpot.svg">
+            <h1 class="prompt2 hidden">You should make:</h1>
+            <p class="display-recipe"></p>
+            <button type="button" class="clear-button hidden" id="clear-button">CLEAR</button>
+          </section>
+      </section>
+    </section>
   </body>
-  <script type="text/javascript" src="main.js"></script>
+  <script type="text/javascript" src="./src/data.js"></script>
+  <script type="text/javascript" src="./src/main.js"></script>
 </html>
