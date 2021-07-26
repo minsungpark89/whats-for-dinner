@@ -11,14 +11,15 @@ var displayRecipe = document.querySelector('.display-recipe');
 var potImage = document.querySelector('.pot');
 var rightPrompt = document.querySelector('.prompt2');
 
-// ADD EVENT LISTENER
+
 cookButton.addEventListener('click', displayRandomDish);
 clearButton.addEventListener('click', clearRecipe);
 
-//FUNCTIONS
+
 function getRandomFood(array) {
   return Math.floor(Math.random() * array.length); 
 }
+
 
 function clearRecipe() {
   if (clearButton.checked === true) {
@@ -28,6 +29,7 @@ function clearRecipe() {
     potImage.classList.add('hidden');
   }
 }
+
 
 function displayRandomDish() {
   event.preventDefault()
@@ -47,8 +49,3 @@ function displayRandomDish() {
     clearRecipe;
   }
 }
-
-
-// What am i trying to do?
-// What do i have to work with?
-// what steps do i need to take?
