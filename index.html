@@ -7,30 +7,30 @@
   <body>
     <header>
       <h1>What's for Dinner?
-        <button type="submit">ADD A RECIPE</button>
+        <button class="add-button">ADD A RECIPE</button>
       </h1>
     </header>   
-    < class="flex-container">
+    <section class="container">
       <section class="left-box">
-        <h1 class="prompt">What are you looking for?<span style="color:red">*</span>
+        <h1 class="prompt1">What are you looking for?<span style="color:red">*</span>
         </h1>
-        <ul class="radio">
-          <input type="radio" name="radio1" id="side-dish"> Side</input><br>
-          <input type="radio" name="radio2" id="main-dish"> Main Dish</input><br>
-          <input type="radio" name="radio3" id="dessert-dish"> Dessert</input><br>
-          <input type="radio" name="radio4" id="meal"> Full Meal</input><br>
-          <button class="cook-button">LET'S COOK!</button>
+        <ul class="dish-radio">
+          <input type="radio" name="meal-radio" id="side-dish">Side</input><br><br>
+          <input type="radio" name="meal-radio" id="main-dish">Main Dish</input><br><br>
+          <input type="radio" name="meal-radio" id="dessert-dish">Dessert</input><br><br>
+          <button type="button" class="cook-button">LET'S COOK!</button>
         </ul>
       </section>
       <section class="right-box">
-        <section class="right-box-content">
-          <img class="pot" src= "./assets/cookpot.svg">
-          <div class="hidden">
-            <h1 class="prompt-title">You should make:</h1>
-          </div>
-        </section>
+          <section class="right-box-content">
+            <img class="pot" src="./assets/cookpot.svg">
+            <h1 class="prompt2 hidden">You should make:</h1>
+            <p class="display-recipe"></p>
+            <button type="button" class="clear-button hidden" id="clear-button">CLEAR</button>
+          </section>
       </section>
+    </section>
   </body>
-  <script type="text/javascript" src="main.js"></script>
-  <script src="data.js"></script>
+  <script type="text/javascript" src="./src/data.js"></script>
+  <script type="text/javascript" src="./src/main.js"></script>
 </html>
