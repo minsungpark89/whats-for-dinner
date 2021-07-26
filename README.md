@@ -13,8 +13,8 @@ ________________________________________________________________________________
 
 - Fork this project to your own Github account
 - Clone the repository to your local machine
-- `cd` into the project
-- Read this README thoroughly, then begin working!
+- `cd` into the file
+- View web app by running `index.html` with in your terminal.
 ___________________________________________________________________________________________________________________________
 **User Information:**
 
