@@ -13,7 +13,7 @@ red - #ee5253
 
 header > h1 {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   background-color: #0fb9b1;  
   margin-top: 0px;
   padding: 10px 0;
@@ -65,12 +65,7 @@ header > h1 {
   text-align: center;
  
 }
-.pot {
-  display: flex;
-  
-  max-width: 100;
-  height: auto;
-}
+
 
 button.reset-button {
   display:flex;
