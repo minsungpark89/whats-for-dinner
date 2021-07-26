@@ -1,23 +1,39 @@
-# What's for Dinner?
+What's for Dinner?
 
-## Overview
+Contributors: Min Park
 
-What's for dinner? The ultimate question. You will be building an app that helps users choose a recipe and put together meals. 
+Technology: HTML, CSS, JAVASCRIPT, VSCODE, Google Chrome Dev-Tools, Github
 
-This Solo Challenge gives students and instructors the opportunity to get a pulse on where you are with the foundational concepts of Module 1 curriculum. Students should use this as an opportunity to challenge themselves and work completely independently. Google can (and probably should!) be used, but any other code base should not be referenced. Instructors will be able to use your work, both completion of functionality and code quality, to determine where you stand and if you are behind for this point in the module, provide supports to intervene.
+Deploy:
+https://github.com/minsungpark89/whats-for-dinner
 
-The spec for this project can be found [here](https://frontend.turing.io/projects/module-1/dinner.html). 
-
-## Learning Goals
-
-- Gain experience building an application that utilizes HTML, CSS and JavaScript
-- Write HTML and CSS to match a provided comp
-- Understand how to listen to and respond to user events
-- Individualize your programming skill set
-
+___________________________________________________________________________________________________________________________
 ## Setup
 
 - Fork this project to your own Github account
 - Clone the repository to your local machine
 - `cd` into the project
 - Read this README thoroughly, then begin working!
+___________________________________________________________________________________________________________________________
+
+User Information:
+
+Main Function: When a user selects a dish option and then clicks the “Let’s Cook!” button, the user will see a random dish from the a list of possible dishes for that category of the dish.  The random dish will appear in the box located to the right of the box with the prompt.
+___________________________________________________________________________________________________________________________
+
+How to Use the App:
+
+How to choose a dish:
+
+From the main page, There will be 2 white boxes visible to the user.  The left box has a prompt that will allow them to choose a meal. 
+
+The user will be allowed to choose a dish to their liking and will then be required to click the teal-labeled button "LET'S COOK!"
+  ![step 1:](https://user-images.githubusercontent.com/39206140/126923202-842235f8-dd85-487b-80f6-8c6f39034503.png)
+ 
+When this button is clicked, The white box on the right side of the page will pop up text of a random dish within the realm of whatever dish they chose.
+
+![Step 2:](https://user-images.githubusercontent.com/39206140/126923310-68f1e6a4-ebdc-4c94-b7d2-99c282fe8bb7.png)
+
+![Step 3:](https://user-images.githubusercontent.com/39206140/126923370-b7220ee3-58ac-4694-83ad-e276aabf4373.png)
+
+This is not a fully functioning web application at the moment and is still a work in progress.  
