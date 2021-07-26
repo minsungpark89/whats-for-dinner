@@ -34,7 +34,10 @@ ________________________________________________________________________________
 
 ![Step 2:](https://user-images.githubusercontent.com/39206140/126923310-68f1e6a4-ebdc-4c94-b7d2-99c282fe8bb7.png)
 
+-Image above will disappear once a dish is chosen and "LET'S COOK" button is clicked.
 
 ![Step 3:](https://user-images.githubusercontent.com/39206140/126923370-b7220ee3-58ac-4694-83ad-e276aabf4373.png)
+
+-Random dish will appear like so!  Feel free to click "LETS COOK" button to see the various dishes!
 
 -This is not a fully functioning web application at the moment and is still a work in progress.  
